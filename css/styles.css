@@ -72,8 +72,7 @@ label {
   justify-content: center;
 }
 
-.visually-hidden {
-  position: absolute;
-  left: -100vw;
+.hideanswer {
+  display: none; /* instead use visibility: hidden;"*/
 }
 /*.answer .question;*/
