@@ -58,4 +58,22 @@
   border: solid;
 }
 
+.control-me::after {
+  content: "";
+  font-size: 100px;
+}
+#toggle:checked ~ .control-me::after {
+  content: "flex-direction";
+  font-size: 20px;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -100vw;
+}
 /*.answer .question;*/
