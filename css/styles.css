@@ -1,4 +1,5 @@
 /*here comes my css code*/
+@import "global.css";
 *,
 *::before,
 *::after {
