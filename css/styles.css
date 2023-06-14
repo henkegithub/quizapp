@@ -6,30 +6,74 @@
   box-sizing: border-box;
 }
 
-body {
+.header {
+  border-radius: 0px 0px 10px 10px;
   display: flex;
-  flex-direction: column;
-  margin: 80px 0 45px 0;
-  font-family: system-ui;
+  justify-content: center;
+  background-color: aquamarine;
+  box-shadow: 5px 5px 5px grey;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;*/
 }
 
-.header {
-  position: absolute;
-  top: 0;
-  left: 50%;
+.card {
+  background-color: aqua;
+  border: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px burlywood;
 }
 
 .footer {
-  color: blue;
+  background-color: aliceblue;
+
   position: fixed;
   bottom: 20px;
   left: 20px;
   width: 100%;
 }
 
-ul {
+.imagebox {
+  border: solid;
+}
+
+.images {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
+.hashtags {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.hashtagbox {
+  border: solid;
+}
+
+.control-me::after {
+  display: none;
+}
+#toggle:checked ~ .control-me::after {
+  content: "flex-direction";
+  font-size: 20px;
+  display: block;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+}
+
+.hideanswer {
+  display: none; /* instead use visibility: hidden;"*/
+}
+/*.answer .question;*/
