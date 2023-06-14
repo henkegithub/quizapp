@@ -59,12 +59,12 @@
 }
 
 .control-me::after {
-  content: "";
-  font-size: 100px;
+  display: none;
 }
 #toggle:checked ~ .control-me::after {
   content: "flex-direction";
   font-size: 20px;
+  display: block;
 }
 
 label {
