@@ -12,7 +12,7 @@
   </head>
   <body>
     <header class="header">
-      <h1>Quizz App</h1>
+      <h1>Quiz App</h1>
     </header>
     <main>
       <section class="card">
@@ -22,10 +22,10 @@
         answer shows on a click
         -->
         <p class="question">What property flips the axes in flexbox?</p>
-        <label for="toggle">Show Answer</label>
-        <input type="checkbox" id="toggle" />
-        <div class="control-me"></div>
-        <p>
+        <input type="checkbox" id="answer-checkbox" />
+        <label for="answer-checkbox">Show Answer!</label>
+        <div class="checkbox-hack-content">Show me only if checked!</div>
+        <p class="answer">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
           explicabo quia est, facilis dignissimos sapiente possimus deserunt ut
           similique sequi, officiis nam quod, debitis molestias magni repellat
@@ -39,10 +39,10 @@
       </section>
       <section class="card">
         <p class="question">Lorem ipsum dolor sit?</p>
-        <label for="toggle">Show Answer</label>
-        <input type="checkbox" id="toggle" />
-        <div class="control-me"></div>
-        <p>
+        <input type="checkbox" id="answer-checkbox-two" />
+        <label for="answer-checkbox-two">Show Answer!</label>
+        <div class="checkbox-hack-content-two">Show me only if checked!</div>
+        <p class="answer">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
           aspernatur autem, necessitatibus dolore quae fuga! Labore quod
           expedita, dolore deleniti nesciunt quas, eum commodi perferendis ipsa
@@ -51,17 +51,15 @@
       </section>
     </main>
     <footer class="footer">
-      <nav class="navigationbar">
-        <ul class="images">
-          <li class="imagebox">
-            <a href=""></a><img src="assets/homebutton.png" />
+      <nav class="footer footer__navbar">
+        <ul class="footer footer__navbar footer__navbar--images">
+          <li>
+            <a href="./index.html"></a><img src="assets/homebutton.png" />
           </li>
-          <li class="imagebox">
-            <a href=""></a><img src="assets/safe button.png" />
+          <li>
+            <a href="./bookmarks.html"></a><img src="assets/safe button.png" />
           </li>
-          <li class="imagebox">
-            <a href=""></a><img src="assets/profile.png" />
-          </li>
+          <li><a href="./profile.html"></a><img src="assets/profile.png" /></li>
         </ul>
       </nav>
     </footer>
